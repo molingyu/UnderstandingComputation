@@ -1,5 +1,4 @@
 require_relative './syntax.rb'
-require 'pp'
 
 s = Simple
 
