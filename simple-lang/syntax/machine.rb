@@ -6,9 +6,9 @@ class Machine < Struct.new(:statement, :environment)
 
   def run
     while statement.reducible?
-      puts "exp: #{statement}", "env: #{environment}", ''
+      puts "exp: #{statement}", "env: #{environment}"
       step
     end
-    puts "exp: #{statement}", "env: #{environment}\n", ''
+    puts "exp: #{statement}", "env: #{environment}\n"
   end
 end
