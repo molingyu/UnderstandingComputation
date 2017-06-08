@@ -1,7 +1,7 @@
-require './syntax/base_type'
-require './syntax/arithmetic'
-require './syntax/statement'
-require './syntax/machine'
+require_relative './syntax/base_type'
+require_relative './syntax/arithmetic'
+require_relative './syntax/statement'
+require_relative './syntax/machine'
 
 module Simple
   class << self

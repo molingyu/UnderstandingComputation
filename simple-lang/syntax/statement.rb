@@ -1,5 +1,5 @@
-require './syntax/base_node'
-require './syntax/base_type'
+require_relative './base_node'
+require_relative './base_type'
 
 class DoNothing < BaseNode
   def initialize

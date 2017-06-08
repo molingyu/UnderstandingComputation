@@ -1,4 +1,4 @@
-require './syntax/base_node'
+require_relative './base_node'
 
 class Number < BaseNode
 

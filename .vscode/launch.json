@@ -2,11 +2,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug Local File",
+      "name": "Debug Simple",
       "type": "Ruby",
       "request": "launch",
       "cwd": "${workspaceRoot}",
-      "program": "${workspaceRoot}/main.rb"
+      "program": "${workspaceRoot}/simple-lang/main.rb"
     },
     {
       "name": "Listen for rdebug-ide",
