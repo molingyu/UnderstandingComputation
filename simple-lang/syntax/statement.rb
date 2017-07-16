@@ -161,10 +161,11 @@ class Function < BaseNode
   attr_accessor :name
   attr_accessor :params
   
-  def initialize(name, *params)
+  def initialize(name, params, statement)
     @name = name
     @params = params
-    @reducible = true
+    @statement = statement
+    @reducible = false
   end
 
   def to_s
@@ -176,6 +177,7 @@ class Function < BaseNode
   end
 
   def reduce(environment)
+
   end
 
 end
